@@ -8,3 +8,4 @@ while True:
     client.send(message)
     client.recv(64)
     client.close
+
