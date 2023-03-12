@@ -447,3 +447,4 @@ void server_custom_thread_pool::worker::schedule_idle_job(client::client_data &c
         g_fd_pool_db[client.pool_index].fd = client.fd;
     }
 }
+
