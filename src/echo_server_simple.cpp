@@ -240,4 +240,3 @@ void server_simple::client::send_response_client(size_t client_pool_index, const
         client::close_client(client_pool_index);
     }
 }
-
