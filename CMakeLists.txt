@@ -106,9 +106,11 @@ set(LINK_LIBS_echo_server_boost_asio_threaded
 #! Compile Common Lib
 add_library(common STATIC ${COMMON_SRC})
 target_include_directories(common PUBLIC include)
+
 # link Google Logs
 target_include_directories(common PRIVATE ${glog_INCLUDE_DIRS})
 target_link_libraries(common ${glog_LIBRARIES})
+
 # Google Flags
 target_include_directories(common PRIVATE ${gflags_INCLUDE_DIRS})
 target_link_libraries(common ${gflags_LIBRARIES})
@@ -152,3 +154,4 @@ set(ALL_TARGETS ${SERVER_TARGETS})
 
 # Include CMake setup
 include(cmake/main-config.cmake)
+

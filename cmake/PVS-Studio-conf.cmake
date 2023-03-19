@@ -12,3 +12,4 @@ if (ENABLE_PVS_STUDIO)
 else ()
     message(NOTICE "\n- UCU.APPS.CS: Consider enabling PVS-Studio in CMakeLists.txt by 'set(ENABLE_PVS_STUDIO ON)' flag or use Windows PVS Studio GUI.")
 endif ()
+
