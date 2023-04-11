@@ -110,7 +110,6 @@ target_include_directories(common PUBLIC include)
 # link Google Logs
 target_include_directories(common PRIVATE ${glog_INCLUDE_DIRS})
 target_link_libraries(common ${glog_LIBRARIES})
-
 # Google Flags
 target_include_directories(common PRIVATE ${gflags_INCLUDE_DIRS})
 target_link_libraries(common ${gflags_LIBRARIES})

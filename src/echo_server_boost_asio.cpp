@@ -1,4 +1,3 @@
-// source link: https://theboostcpplibraries.com/boost.asio-coroutines
 #include "echo_server_boost_asio.h"
 #include <boost/asio/io_service.hpp>
 #include <boost/asio/write.hpp>
