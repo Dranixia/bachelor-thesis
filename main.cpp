@@ -53,3 +53,4 @@ int main(int argc, char *argv[]) {
     logging_deinit();
     return ret;
 }
+

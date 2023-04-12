@@ -166,3 +166,4 @@ std::string server_boost_asio::client::get_client_name(
       << client_p->remote_endpoint().port();
     return s.str();
 }
+
