@@ -1,5 +1,0 @@
-cmake
-g++
-libboost-all-dev
-pkg-config
-libgoogle-glog-dev
