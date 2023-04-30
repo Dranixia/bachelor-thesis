@@ -1,4 +1,9 @@
 #!/bin/bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
 if [ $# -eq 0 ]; then
   echo "Usage: $0 <argument> <PID>"
   exit 1
