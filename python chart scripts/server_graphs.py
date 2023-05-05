@@ -3,7 +3,6 @@ import altair as alt
 import pandas as pd
 
 
-
 pc_cores = {1: 6, 2: 16}
 
 
